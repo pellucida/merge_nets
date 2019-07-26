@@ -81,7 +81,7 @@ Run subnet_merge on the pieces separately and then on the output.
 
 The code uses <arpa/inet.h> and dependent headers for inet_pton(3)
 inet_ntop(3) but otherwise is fairly ordinary and should be
-compilable by any C89 compiler.
+compilable by any modern C compiler.
 
 ### SEE ALSO
 
