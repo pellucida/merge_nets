@@ -90,10 +90,8 @@ compilable by any C89 compiler.
 The repositories containing subnet_merge and cidr_cover are precursors.
 
 ### LICENSE
-Creative Commons CC0
-[http://creativecommons.org/publicdomain/zero/1.0/legalcode]
-(http://creativecommons.org/publicdomain/zero/1.0/legalcode)
-
+[Creative Commons CC0]
+(http://creativecommons.org/publicdomain/zero/1.0/legalcoder)
 
 ### AUTHOR
 [James Sainsbury](mailto:toves@sdf.lonestar.org)
