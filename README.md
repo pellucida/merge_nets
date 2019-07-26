@@ -85,7 +85,7 @@ compilable by any C89 compiler.
 
 ### SEE ALSO
 
-[http://cidrmerge.sourceforge.net/]
+[http://cidrmerge.sourceforge.net/](http://cidrmerge.sourceforge.net/)
 
 The repositories containing subnet_merge and cidr_cover are precursors.
 
