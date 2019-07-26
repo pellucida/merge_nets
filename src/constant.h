@@ -3,8 +3,8 @@
 //	@(License-CC0)
 */
 
-# if	!defined(CONSTANTS_H)
-# define	CONSTANTS_H
+# if	!defined(CONSTANT_H)
+# define	CONSTANT_H
 enum	{
 	err	= -1,
 	ok	= 0,
