@@ -45,7 +45,7 @@ NB the address ranges (3) *are not* restricted to /n boundaries.
 	172.16.97.32/31
 ```
 
-	### EXAMPLES
+### EXAMPLES
 
 Given an input file containing this list
 
