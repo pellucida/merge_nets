@@ -26,12 +26,11 @@ static	inline	void	range_list_init (range_list_t* r) {
 	r->nranges	= 0;
 }
 
-static	void	range_list_append (range_list_t* r, haddr_t addr, int mask) {
+static	inline void	range_list_append (range_list_t* r, haddr_t addr, int mask) {
 	addr_range_t	ar	= { .addr = addr, .mask = mask };
 	r->ranges[r->nranges++]	= ar;
 }
 
-void	range_list_append (range_list_t* r, haddr_t addr, int mask);
 int	range_list_make (haddr_t start, haddr_t finish, range_list_t* r);
 
 # endif
