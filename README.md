@@ -1,11 +1,11 @@
 
 ### Summarize, condense or merge IPv4 network ranges
 
-merge_nets uses a simple binary tree to store the network addresses
+Merge_nets uses a simple binary tree to store the network addresses
 or ranges which allow simple merging of adjacent network ranges.
 
-Input also permits arbitrary address ranges which are converted into
-network, prefix pairs before insertion into the tree. 
+Input can be arbitrary address ranges which are converted into
+network with prefix pairs before insertion into the tree. 
 
 ### SYNOPSIS
 
@@ -18,7 +18,8 @@ network, prefix pairs before insertion into the tree.
 ```
 
 ### INPUT FORMAT
-A single network range per line of input from specified files (or stdin.)
+
+A single network range per line of input from specified file(s) or stdin.
 The ranges can be in any of the following and freely mixed.
 
 1. [dotted-quad]/[network mask] 
@@ -28,7 +29,7 @@ The ranges can be in any of the following and freely mixed.
 eg (1) 8.8.8.8/255.255.255.0, (2) 192.168.96.0/20, (3) 172.16.54.22-172.16.97.33
 
 NB the address ranges (3) *are not* restricted to /n boundaries.
-
+eg
 ```
 172.16.54.22-172.16.97.33 is expanded to before merging
 
@@ -85,9 +86,8 @@ compilable by any C89 compiler.
 ### SEE ALSO
 
 [http://cidrmerge.sourceforge.net/]
-(http://cidrmerge.sourceforge.net/)
 
-subnet_merge and cidr_cover are precursors.
+The repositories containing subnet_merge and cidr_cover are precursors.
 
 ### LICENSE
 Creative Commons CC0
